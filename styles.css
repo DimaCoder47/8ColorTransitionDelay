@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(138, 149, 160);
+}
+
+#container {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(127, 145, 163);
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    transition-timing-function: ease-in-out;
+    transition: all 6s;
+}
+
+#container:hover {
+    border: 5px dashed rgb(255, 62, 62);
+    background-color: rgb(0, 25, 49);
+}
+
+#kr1, #kr2, #kr3, #kr4, #kr5, #kr6, #kr7, #kr8, #kr9, #kr10, #kr11, #kr12, #kr13, #kr14, #kr15, #kr16, #kr17, #kr18, #kr19, #kr20, #kr21, #kr22, #kr23, #kr24, #kr25, #kr26, #kr27, #kr28, #kr29, #kr30 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 18px;
+    border: 1px solid blue;
+    justify-content: center;
+    background-color: black;
+    color: rgb(0, 0, 119);
+    animation: linear infinite alternate;
+    animation-name: run;
+    animation-duration: 8s;
+    transition: transform 1s;
+}
+
+div[id^='kr']:hover {
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+@keyframes run {
+    0% {
+        background-color: red;
+    }
+    12.5% {
+        background-color: orange;
+    }
+    25% {
+        background-color: yellow;
+    }
+    37.5% {
+        background-color: greenyellow;
+    }
+    50% {
+        background-color: green;
+    }
+    62.5% {
+        background-color: darkblue;
+    }
+    80% {
+        background-color: blue;
+    }
+    100% {
+        background-color: darkviolet;
+    }
+}
+
+#kr1 {
+    animation-delay: 1s;
+}
+#kr2 {
+    animation-delay: 2s;
+}
+#kr3 {
+    animation-delay: 3s;
+}
+#kr4 {
+    animation-delay: 4s;
+}
+#kr5 {
+    animation-delay: 5s;
+}
+#kr6 {
+    animation-delay: 6s;
+}
+#kr7 {
+    animation-delay: 7s;
+}
+#kr8 {
+    animation-delay: 8s;
+}
+#kr9 {
+    animation-delay: 9s;
+}
+#kr10 {
+    animation-delay: 10s;
+}
+#kr11 {
+    animation-delay: 11s;
+}
+#kr12 {
+    animation-delay: 12s;
+}
+#kr13 {
+    animation-delay: 13s;
+}
+#kr14 {
+    animation-delay: 14s;
+}
+#kr15 {
+    animation-delay: 15s;
+}
+#kr16 {
+    animation-delay: 16s;
+}
+#kr17 {
+    animation-delay: 17s;
+}
+#kr18 {
+    animation-delay: 18s;
+}
+#kr19 {
+    animation-delay: 19s;
+}
+#kr20 {
+    animation-delay: 20s;
+}
+#kr21 {
+    animation-delay: 21s;
+}
+#kr22 {
+    animation-delay: 22s;
+}
+#kr23 {
+    animation-delay: 23s;
+}
+#kr24 {
+    animation-delay: 24s;
+}
+#kr25 {
+    animation-delay: 25s;
+}
+#kr26 {
+    animation-delay: 26s;
+}
+#kr27 {
+    animation-delay: 27s;
+}
+#kr28 {
+    animation-delay: 28s;
+}
+#kr29 {
+    animation-delay: 29s;
+}
+#kr30 {
+    animation-delay: 30s;
+}
